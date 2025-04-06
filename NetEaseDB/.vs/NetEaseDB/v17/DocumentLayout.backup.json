@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\models\\eventinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:models\\eventinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\eventinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\eventinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\eventinfo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\eventinfo\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Venue.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Models\\Venue.cs",
+              "RelativeDocumentMoniker": "Models\\Venue.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Models\\Venue.cs",
+              "RelativeToolTip": "Models\\Venue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:09:15.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventInfo.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Models\\EventInfo.cs",
+              "RelativeDocumentMoniker": "Models\\EventInfo.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Models\\EventInfo.cs",
+              "RelativeToolTip": "Models\\EventInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:07:55.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:04:16.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\EventInfo\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\EventInfo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\EventInfo\\Index.cshtml",
+              "RelativeToolTip": "Views\\EventInfo\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T14:40:51.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T19:10:55.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "Models\\Booking.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Models\\Booking.cs",
+              "RelativeToolTip": "Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T21:26:16.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Create.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T20:49:50.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Index.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T20:06:02.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Controllers\\BookingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T20:02:34.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\EventInfo\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\EventInfo\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\EventInfo\\Delete.cshtml",
+              "RelativeToolTip": "Views\\EventInfo\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T19:10:45.782Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+﻿@model IEnumerable<NetEaseDB.Models.Booking>
+
+@{
+    ViewData["Title"] = "Booking Page";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EventInfo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Venue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookingDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventInfo.EventInfoId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Venue.VenueId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookingDate)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.BookingID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.BookingID">Details</a> |
+                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
