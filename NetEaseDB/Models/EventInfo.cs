@@ -9,7 +9,7 @@
         public DateTime EventDate { get; set; }
         public string Description { get; set; }
         public int VenueID { get; set; }
-
+       
         public List<Booking> Booking { get; set; } = new();
     }
 }

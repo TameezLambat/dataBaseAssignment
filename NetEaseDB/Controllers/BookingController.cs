@@ -12,7 +12,7 @@ namespace NetEaseDB.Controllers
         {
             _context = context;
         }
-         // Retrieves all bookings along with related Venue and EventInfo data
+        // Retrieves all bookings along with related Venue and EventInfo data
         public async Task<IActionResult> Index()
 
         {
@@ -48,5 +48,61 @@ namespace NetEaseDB.Controllers
 
 
         }
+        // GET: Booking/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var booking = await _context.Bookings
+                .Include(b => b.EventInfo)
+                .Include(b => b.Venue)
+                .FirstOrDefaultAsync(m => m.BookingID == id);
+
+            if (booking == null)
+            {
+                return NotFound();
+            }
+
+            return View(booking);
+        }
+
+        // POST: Booking/Delete/5
+        // This shows the confirmation view
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var booking = await _context.Bookings
+                .Include(b => b.EventInfo)
+                .Include(b => b.Venue)
+                .FirstOrDefaultAsync(b => b.BookingID == id);
+
+            if (booking == null)
+            {
+                return NotFound();
+            }
+
+            return View(booking);
+        }
+
+        // This handles the form submission when user confirms delete
+        [HttpPost]
+        public async Task<IActionResult> Delete(Booking booking)
+        {
+            var bookingToDelete = await _context.Bookings.FindAsync(booking.BookingID);
+
+            if (bookingToDelete == null)
+            {
+                return NotFound();
+            }
+
+            _context.Bookings.Remove(bookingToDelete);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
     }
 }

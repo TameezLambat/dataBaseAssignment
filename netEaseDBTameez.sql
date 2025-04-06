@@ -60,9 +60,10 @@ VALUES
 (2, 2),  -- Booking for Tech Expo at Central Park
 (3, 3);  -- Booking for Charity Gala at Skyline Hall
 -- CHECK TABLES
+
 SELECT * FROM Venues;
 SELECT * FROM EventInfo;
-SELECT * FROM Booking;
+SELECT * FROM Bookings;
 
 -- CLEANUP TABLES
 DROP TABLE IF EXISTS Bookings;
