@@ -3,6 +3,13 @@
 @{
     ViewData["Title"] = "Booking Page";
 }
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
 
 <h1>@ViewData["Title"]</h1>
 
@@ -28,10 +35,10 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.EventInfo.EventInfoId)
+                @Html.DisplayFor(modelItem => item.EventInfo.EventName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Venue.VenueId)
+                @Html.DisplayFor(modelItem => item.Venue.VenueName)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.BookingDate)

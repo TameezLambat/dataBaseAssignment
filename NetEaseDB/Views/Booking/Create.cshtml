@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Create";
+
 }
 
 <h1>Create</h1>
@@ -13,18 +14,23 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
+            <!-- EventInfoID (uppercase 'ID') for Booking model -->
             <div class="form-group">
                 <label asp-for="EventInfoID" class="control-label"></label>
-                <input asp-for="EventInfoID" class="form-control" />
+                <select asp-for="EventInfoID" class="form-control"
+                        asp-items="@(ViewData["Events"] as SelectList)"></select>
                 <span asp-validation-for="EventInfoID" class="text-danger"></span>
             </div>
 
+            <!-- VenueID for Booking model -->
             <div class="form-group">
                 <label asp-for="VenueID" class="control-label"></label>
-                <input asp-for="VenueID" class="form-control" />
+                <select asp-for="VenueID" class="form-control"
+                        asp-items="@(ViewData["Venues"] as SelectList)"></select>
                 <span asp-validation-for="VenueID" class="text-danger"></span>
             </div>
 
+            <!-- BookingDate for Booking model -->
             <div class="form-group">
                 <label asp-for="BookingDate" class="control-label"></label>
                 <input asp-for="BookingDate" class="form-control" />

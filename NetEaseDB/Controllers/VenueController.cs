@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NetEaseDB.Models;
 
@@ -115,10 +117,17 @@ namespace NetEaseDB.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var venue = await _context.Venues.FindAsync(id);
+            //checking associated bookins
+            bool hasBookings = await _context.Bookings.AnyAsync(b => b.VenueID == id);
+            if (hasBookings) {
+                TempData["ErrorMessage"] = "Cannot delete this venue because it has existing bookings.";
+                return RedirectToAction(nameof(Index));
+            }
             if (venue != null)
             {
                 _context.Venues.Remove(venue);
                 await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = "Venue deleted successfully.";
             }
             return RedirectToAction(nameof(Index));
         }

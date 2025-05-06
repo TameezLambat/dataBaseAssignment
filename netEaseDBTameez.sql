@@ -1,12 +1,12 @@
----DATABASE CREATION
-USE master
-IF EXISTS (SELECT * FROM sys.databases WHERE name ='NetEaseDB')
-DROP DATABASE NetEaseDB
-CREATE DATABASE NetEaseDB
+-- Ensure you're working with the correct database (eventEase)
+USE eventEase;
 
-USE NetEaseDB
+-- Drop existing tables if they exist (optional but ensures a fresh start)
+DROP TABLE IF EXISTS Bookings;
+DROP TABLE IF EXISTS EventInfo;
+DROP TABLE IF EXISTS Venues;
 
---TABLE CREATION
+-- TABLE CREATION for Venues
 CREATE TABLE Venues (
     VenueID INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
     VenueName VARCHAR(250) NOT NULL,
@@ -25,8 +25,6 @@ CREATE TABLE EventInfo (
     FOREIGN KEY (VenueID) REFERENCES Venues(VenueID) ON DELETE NO ACTION  -- Prevent deletion of Venue if Event exists
 );
 
-
-
 -- BOOKING TABLE (Simplified)
 CREATE TABLE Bookings (
     BookingID INT IDENTITY(1,1) PRIMARY KEY NOT NULL,
@@ -37,9 +35,7 @@ CREATE TABLE Bookings (
     FOREIGN KEY (VenueID) REFERENCES Venues(VenueID) ON DELETE CASCADE
 );
 
-
--- SAMPLE DATA INSERTION
-
+-- SAMPLE DATA INSERTION for Venues
 INSERT INTO Venues (VenueName, Location, Capacity, ImageUrl)
 VALUES 
 ('Grand Arena', '123 Main Street, City', 5000, 'https://example.com/grandarena.jpg'),
@@ -59,13 +55,13 @@ VALUES
 (1, 1),  -- Booking for Music Fest at Grand Arena
 (2, 2),  -- Booking for Tech Expo at Central Park
 (3, 3);  -- Booking for Charity Gala at Skyline Hall
--- CHECK TABLES
 
+-- CHECK TABLES to verify everything is inserted correctly
 SELECT * FROM Venues;
 SELECT * FROM EventInfo;
 SELECT * FROM Bookings;
 
--- CLEANUP TABLES
-DROP TABLE IF EXISTS Bookings;
-DROP TABLE IF EXISTS EventInfo;
-DROP TABLE IF EXISTS Venues;
+-- CLEANUP TABLES (optional for testing purposes)
+-- DROP TABLE IF EXISTS Bookings;
+-- DROP TABLE IF EXISTS EventInfo;
+-- DROP TABLE IF EXISTS Venues;

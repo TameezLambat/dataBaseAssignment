@@ -84,14 +84,29 @@ namespace NetEaseDB.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var eventInfo = await _context.EventInfo.FindAsync(id);
-            if (eventInfo != null)
+            var eventInfo = await _context.EventInfo
+                .Include(e => e.Booking)
+                .FirstOrDefaultAsync(e => e.EventInfoId == id);
+
+            if (eventInfo == null)
             {
-                _context.EventInfo.Remove(eventInfo);
-                await _context.SaveChangesAsync();
+                return NotFound();
             }
+
+            // Check for existing bookings
+            if (eventInfo.Booking != null && eventInfo.Booking.Any())
+            {
+                TempData["ErrorMessage"] = "Cannot delete this event because it has existing bookings.";
+                return RedirectToAction(nameof(Index));
+            }
+
+            _context.EventInfo.Remove(eventInfo);
+            await _context.SaveChangesAsync();
+
+            TempData["SuccessMessage"] = "Event deleted successfully.";
             return RedirectToAction(nameof(Index));
         }
+
 
         // Edit Action - Displays form to edit an existing event
         public async Task<IActionResult> Edit(int? id)

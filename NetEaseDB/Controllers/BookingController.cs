@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NetEaseDB.Models;
 
@@ -6,49 +7,93 @@ namespace NetEaseDB.Controllers
 {
     public class BookingController : Controller
     {
-        //adding applications database context
         private readonly ApplicationDbContext _context;
+
         public BookingController(ApplicationDbContext context)
         {
             _context = context;
         }
-        // Retrieves all bookings along with related Venue and EventInfo data
-        public async Task<IActionResult> Index()
 
+        // Retrieve all bookings along with related EventInfo and Venue
+        public async Task<IActionResult> Index()
         {
             var booking = await _context.Bookings
-                .Include(i => i.Venue)
-                .Include(i => i.EventInfo)
+                .Include(b => b.Venue)
+                .Include(b => b.EventInfo)
                 .ToListAsync();
 
             return View(booking);
         }
+
+        // Create Booking
         public IActionResult Create()
         {
+            ViewData["Title"] = "Create Booking"; // Set the page title here
+            PopulateDropDowns();  // Make sure dropdowns are populated
             return View();
         }
-        // Handles form submission for creating a new booking
+
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Booking booking)
         {
+            ViewData["Title"] = "Create";
+            PopulateDropDowns(); // Always ensure dropdowns are set before any return
 
-
-            if (ModelState.IsValid)
+            if (booking.EventInfoID != 0)
             {
+                var selectedEvent = await _context.EventInfo
+                    .FirstOrDefaultAsync(e => e.EventInfoId == booking.EventInfoID);
 
-                _context.Add(booking);
+                if (selectedEvent == null)
+                {
+                    ModelState.AddModelError("", "Selected event not found.");
+                    return View(booking);
+                }
 
-                await _context.SaveChangesAsync();
+                var conflict = await _context.Bookings
+                    .Include(b => b.EventInfo)
+                    .AnyAsync(b => b.VenueID == booking.VenueID &&
+                                   b.EventInfo.EventDate.Date == selectedEvent.EventDate.Date);
 
-                return RedirectToAction(nameof(Index));
+                if (conflict)
+                {
+                    ModelState.AddModelError("", "This venue is already booked for that date.");
+                    return View(booking);
+                }
 
+                if (ModelState.IsValid)
+                {
+                    try
+                    {
+                        _context.Add(booking);
+                        await _context.SaveChangesAsync();
+                        TempData["SuccessMessage"] = "Booking created successfully.";
+                        return RedirectToAction(nameof(Index));
+                    }
+                    catch (DbUpdateException)
+                    {
+                        ModelState.AddModelError("", "Database error: possible duplicate booking.");
+                    }
+                }
             }
-            // If model validation fails, return the same view with validation messages
-            return View(booking);
+            else
+            {
+                ModelState.AddModelError("", "Please select a valid event.");
+            }
 
-
+            return View(booking); // Always reaches here with ViewData and dropdowns populated
         }
-        // GET: Booking/Delete/5
+
+        // Populating Dropdowns for EventInfo and Venue
+        private void PopulateDropDowns()
+        {
+            // Populate Event and Venue dropdowns from the database
+            ViewData["Events"] = new SelectList(_context.EventInfo, "EventInfoId", "EventName");
+            ViewData["Venues"] = new SelectList(_context.Venues, "VenueId", "VenueName");
+        }
+
+        // GET Delete Action - Displays confirmation page for deleting a booking
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -57,26 +102,8 @@ namespace NetEaseDB.Controllers
             }
 
             var booking = await _context.Bookings
-                .Include(b => b.EventInfo)
                 .Include(b => b.Venue)
-                .FirstOrDefaultAsync(m => m.BookingID == id);
-
-            if (booking == null)
-            {
-                return NotFound();
-            }
-
-            return View(booking);
-        }
-
-        // POST: Booking/Delete/5
-        // This shows the confirmation view
-        [HttpGet]
-        public async Task<IActionResult> Delete(int id)
-        {
-            var booking = await _context.Bookings
                 .Include(b => b.EventInfo)
-                .Include(b => b.Venue)
                 .FirstOrDefaultAsync(b => b.BookingID == id);
 
             if (booking == null)
@@ -84,25 +111,27 @@ namespace NetEaseDB.Controllers
                 return NotFound();
             }
 
-            return View(booking);
+            return View(booking); // Display the confirmation page
         }
 
-        // This handles the form submission when user confirms delete
-        [HttpPost]
-        public async Task<IActionResult> Delete(Booking booking)
+        // POST Delete Action - Deletes a booking from the database
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var bookingToDelete = await _context.Bookings.FindAsync(booking.BookingID);
+            var booking = await _context.Bookings
+                .FirstOrDefaultAsync(b => b.BookingID == id);
 
-            if (bookingToDelete == null)
+            if (booking == null)
             {
                 return NotFound();
             }
 
-            _context.Bookings.Remove(bookingToDelete);
+            _context.Bookings.Remove(booking);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction(nameof(Index));
+            TempData["SuccessMessage"] = "Booking deleted successfully.";
+            return RedirectToAction(nameof(Index)); // Redirect back to the list of bookings
         }
-
     }
 }
