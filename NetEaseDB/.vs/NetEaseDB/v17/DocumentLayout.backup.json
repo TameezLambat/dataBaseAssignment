@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\venue\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\venue\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\models\\eventinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:models\\eventinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\eventinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\eventinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\eventinfo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\eventinfo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\controllers\\eventinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,28 +43,12 @@
       "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\eventinfo\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\eventinfo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\eventinfo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\booking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\booking\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:models\\venue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\booking\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\booking\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -45,14 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\venue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\venue\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\eventinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\eventinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\venue\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\venue\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\venue\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -85,10 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\views\\booking\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:views\\booking\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|c:\\users\\lab_services_student\\desktop\\databaseassignment\\neteasedb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7A1AD5BD-4EAF-44CD-8DAE-73AF2A0E766A}|NetEaseDB.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,97 +106,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\EventInfo\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\EventInfo\\Create.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\EventInfo\\Create.cshtml",
-              "RelativeToolTip": "Views\\EventInfo\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T09:38:04.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Venue\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Venue\\Create.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Venue\\Create.cshtml",
-              "RelativeToolTip": "Views\\Venue\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T02:31:34.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VenueController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Controllers\\VenueController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VenueController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Controllers\\VenueController.cs",
-              "RelativeToolTip": "Controllers\\VenueController.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAzwJwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T02:22:19.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EventInfo.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Models\\EventInfo.cs",
-              "RelativeDocumentMoniker": "Models\\EventInfo.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Models\\EventInfo.cs",
-              "RelativeToolTip": "Models\\EventInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T02:12:44.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Booking\\Create.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Create.cshtml",
-              "RelativeToolTip": "Views\\Booking\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-04T23:01:26.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Venue.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Models\\Venue.cs",
               "RelativeDocumentMoniker": "Models\\Venue.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Models\\Venue.cs",
               "RelativeToolTip": "Models\\Venue.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T22:58:18.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-04T22:58:18.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookingController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Controllers\\BookingController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Controllers\\BookingController.cs",
-              "RelativeToolTip": "Controllers\\BookingController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAIwDYAAAANAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "EventInfo.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Models\\EventInfo.cs",
+              "RelativeDocumentMoniker": "Models\\EventInfo.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Models\\EventInfo.cs",
+              "RelativeToolTip": "Models\\EventInfo.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T20:20:52.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T02:12:44.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Booking\\Delete.cshtml",
@@ -208,20 +142,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Booking\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Index.cshtml",
-              "RelativeToolTip": "Views\\Booking\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-06T20:18:27.202Z",
+              "DocumentIndex": 0,
+              "Title": "VenueController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Controllers\\VenueController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VenueController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Controllers\\VenueController.cs",
+              "RelativeToolTip": "Controllers\\VenueController.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAYwKkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T02:22:19.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-06T03:56:31.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Create.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-04T23:01:26.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Venue\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Venue\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Venue\\Create.cshtml",
+              "RelativeToolTip": "Views\\Venue\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T02:31:34.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\EventInfo\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\EventInfo\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\EventInfo\\Create.cshtml",
+              "RelativeToolTip": "Views\\EventInfo\\Create.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T09:38:04.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EventInfoController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Controllers\\EventInfoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventInfoController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Controllers\\EventInfoController.cs",
+              "RelativeToolTip": "Controllers\\EventInfoController.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAqwKgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T19:08:57.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\EventInfo\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\EventInfo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\EventInfo\\Index.cshtml",
+              "RelativeToolTip": "Views\\EventInfo\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAuwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T20:14:27.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Venue\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Venue\\Index.cshtml",
@@ -229,25 +237,35 @@
               "RelativeToolTip": "Views\\Venue\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-06T20:18:11.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T20:18:11.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Booking\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Index.cshtml",
+              "RelativeToolTip": "Views\\Booking\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-06T20:18:27.202Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\EventInfo\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\EventInfo\\Index.cshtml",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\EventInfo\\Index.cshtml",
-              "RelativeToolTip": "Views\\EventInfo\\Index.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAowCQAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-06T20:14:27.625Z",
-              "EditorCaption": ""
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookingController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "Controllers\\BookingController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwDYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T20:20:52.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -259,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Booking\\Details.cshtml",
@@ -271,20 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EventInfoController.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Controllers\\EventInfoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\EventInfoController.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Controllers\\EventInfoController.cs",
-              "RelativeToolTip": "Controllers\\EventInfoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T19:08:57.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Booking\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Booking\\Edit.cshtml",
@@ -292,12 +297,11 @@
               "RelativeToolTip": "Views\\Booking\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T19:44:05.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T19:44:05.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\EventInfo\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\EventInfo\\Edit.cshtml",
@@ -305,12 +309,11 @@
               "RelativeToolTip": "Views\\EventInfo\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-12T07:00:49.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T07:00:49.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -322,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\EventInfo\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\EventInfo\\Delete.cshtml",
@@ -334,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Venue\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Venue\\Delete.cshtml",
@@ -346,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Venue\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Venue\\Edit.cshtml",
@@ -358,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\Views\\Venue\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Venue\\Details.cshtml",
@@ -367,18 +370,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-09T20:06:07.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\dataBaseAssignment\\NetEaseDB\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-06T03:56:31.434Z"
             }
           ]
         }

@@ -32,36 +32,17 @@ CREATE TABLE Bookings (
     VenueID INT NOT NULL,  -- Link to Venue
     BookingDate DATETIME DEFAULT GETDATE(),  -- Timestamp of booking
     FOREIGN KEY (EventInfoID) REFERENCES EventInfo(EventInfoID) ON DELETE CASCADE,
-    FOREIGN KEY (VenueID) REFERENCES Venues(VenueID) ON DELETE CASCADE
+    FOREIGN KEY (VenueID) REFERENCES Venues(VenueID) ON DELETE CASCADE,
+	CONSTRAINT UQ_Venue_EventInfo UNIQUE (VenueID, EventInfoID)
 );
 
--- SAMPLE DATA INSERTION for Venues
-INSERT INTO Venues (VenueName, Location, Capacity, ImageUrl)
-VALUES 
-('Grand Arena', '123 Main Street, City', 5000, 'https://example.com/grandarena.jpg'),
-('Central Park', '56 Street, City', 300, 'https://via.placeholder.com/500x300'),
-('Skyline Hall', '789 Broadway, Metropolis', 1200, 'https://example.com/skylinehall.jpg');
+--ensure no bookings overlaps for the same venue
+CREATE UNIQUE INDEX UQ_Venues_Bookins ON Bookings (VenueID, BookingDate);
 
--- Sample Event Data
-INSERT INTO EventInfo (EventName, EventDate, Description, VenueID)
-VALUES 
-('Music Fest', '2025-06-15 18:00:00', 'A live music festival featuring top bands.', 1),
-('Tech Expo', '2025-09-10 09:00:00', 'A showcase of the latest in technology.', 2),
-('Charity Gala', '2025-04-22 19:30:00', 'A gala event to raise funds for charity.', 3);
-
--- Sample Booking Data
-INSERT INTO Bookings (EventInfoID, VenueID)
-VALUES
-(1, 1),  -- Booking for Music Fest at Grand Arena
-(2, 2),  -- Booking for Tech Expo at Central Park
-(3, 3);  -- Booking for Charity Gala at Skyline Hall
 
 -- CHECK TABLES to verify everything is inserted correctly
 SELECT * FROM Venues;
 SELECT * FROM EventInfo;
 SELECT * FROM Bookings;
 
--- CLEANUP TABLES (optional for testing purposes)
--- DROP TABLE IF EXISTS Bookings;
--- DROP TABLE IF EXISTS EventInfo;
--- DROP TABLE IF EXISTS Venues;
+
