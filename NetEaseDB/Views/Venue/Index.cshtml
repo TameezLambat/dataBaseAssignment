@@ -1,8 +1,10 @@
 ﻿@model IEnumerable<NetEaseDB.Models.Venue>
 
 @{
-    ViewData["Title"] = "Venue Information";
+    ViewData["Title"] = "Venue Details";
 }
+<h1>@ViewData["Title"]</h1>
+
 <!--temp data message-->
 @if (TempData["ErrorMessage"] != null)
 {
@@ -13,7 +15,7 @@
     <div class="alert alert-success">@TempData["SuccessMessage"]</div>
 }
 <!-- here -->
-<h1>@ViewData["Title"]</h1>
+
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -55,8 +57,10 @@
                 <td>
                     <!-- Edit Button -->
                     <a asp-action="Edit" asp-route-id="@item.VenueId">Edit</a> |
-
-                    <a asp-action="Delete" asp-route-id="@item.VenueId">Delete</a> |
+                    <!-- Details Button -->
+                    <a asp-action="Details" asp-route-id="@item.VenueId">Details</a> |
+                    <!-- Delete Button -->
+                    <a asp-action="Delete" asp-route-id="@item.VenueId">Delete</a> 
                    
                 </td>
             </tr>

@@ -1,4 +1,6 @@
-﻿namespace NetEaseDB.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace NetEaseDB.Models
 {
     public class EventInfo
     {
@@ -8,8 +10,10 @@
         public string EventName { get; set; }
         public DateTime EventDate { get; set; }
         public string Description { get; set; }
+        
         public int VenueID { get; set; }
-       
+        
+
         public List<Booking> Booking { get; set; } = new();
     }
 }

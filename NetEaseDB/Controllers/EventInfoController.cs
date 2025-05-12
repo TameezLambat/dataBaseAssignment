@@ -16,7 +16,7 @@ namespace NetEaseDB.Controllers
         // Index Action - Displays all event information
         public async Task<IActionResult> Index()
         {
-           
+
             var eventInfo = await _context.EventInfo.ToListAsync();
             return View(eventInfo);
         }
@@ -35,6 +35,7 @@ namespace NetEaseDB.Controllers
             {
                 _context.Add(eventInfo);
                 await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = "Event created successfully.";
                 return RedirectToAction(nameof(Index));
             }
 

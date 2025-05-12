@@ -3,6 +3,27 @@
 @{
     ViewData["Title"] = "Booking Page";
 }
+<!--display page header-->
+<h1>@ViewData["Title"]</h1>
+
+
+<!--search form-->
+<form asp-action="Index" method="get" class="form-inline mb-3">
+    <div class="form-group mr-2">
+        <input type="text" name="searchString" class="form-control" placeholder="Search by Booking ID or Event Name" />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+    <a href="@Url.Action("Index", "Booking")" class="btn btn-secondary">Clear</a>
+</form>
+
+@if (TempData["InfoMessage"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["InfoMessage"]
+    </div>
+}
+
+
 @if (TempData["SuccessMessage"] != null)
 {
     <div class="alert alert-success">
@@ -11,44 +32,35 @@
 }
 
 
-<h1>@ViewData["Title"]</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
 <table class="table">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.EventInfo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Venue)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.BookingDate)
-            </th>
+            <th>Booking ID</th>
+            <th>Venue</th>
+            <th>Event Info</th>
+            <th>Booking Date</th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.EventInfo.EventName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Venue.VenueName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.BookingDate)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.BookingID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.BookingID">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.BookingID">Delete</a> |
-            </td>
-        </tr>
-}
+        @foreach (var booking in Model)
+        {
+            <tr>
+                <td>@booking.BookingID</td>
+                <td>@booking.Venue?.VenueName</td>
+                <td>@booking.EventInfo?.EventName</td>
+                <td>@booking.EventInfo?.EventDate.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@booking.BookingID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@booking.BookingID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@booking.BookingID">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
