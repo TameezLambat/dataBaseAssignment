@@ -165,9 +165,10 @@ namespace NetEaseDB.Controllers
 
         private async Task<string> UploadImageToBlobAsync(IFormFile imageFile)
         {
-            var connectionString = ("Azure_blob_connection_string");
+            var connectionString = "DefaultEndpointsProtocol=https;AccountName=tameezcontainer;AccountKey=x+GVDi13zmjC8nofGrIzJ/FVwQC2V54qHRw/WlVDeQr7nOriH/071WjLAgJpV5b7yq7k/k3ImkpD+ASt3FrU+g==;EndpointSuffix=core.windows.net";
 
-            var containerName = ("azure_container_name");
+
+            var containerName = "tameezimagescldv6211";
 
 
             var blobServiceClient = new BlobServiceClient(connectionString);

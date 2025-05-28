@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetEaseDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22666c3d108f3c1200f9107ef6ac688ca808f79c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+657bcf4dceef31b03b2fdf2c8fc092b9eaa62d4f")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetEaseDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetEaseDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

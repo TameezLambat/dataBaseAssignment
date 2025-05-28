@@ -14,6 +14,9 @@ namespace NetEaseDB.Models
         // DbSet representing the tables in the database
         public DbSet<Venue> Venues { get; set; }
         public DbSet<EventInfo> EventInfo { get; set; }
+        public DbSet<EventType> EventType { get; set; }
         public DbSet<Booking> Bookings { get; set; }
+
+        
     }
 }
