@@ -1,0 +1,69 @@
+﻿@model IEnumerable<NetEaseDB.Models.Venue>
+
+@{
+    ViewData["Title"] = "Venue Details";
+}
+<h1>@ViewData["Title"]</h1>
+
+<!--temp data message-->
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+<!-- here -->
+
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.VenueName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Capacity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageURL)
+            </th>
+            <th>Actions</th> <!-- Added for action buttons (Edit, Delete) -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VenueName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Location)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Capacity)
+                </td>
+                <td>
+                    <img src="@item.ImageURL" alt="Venue Image" width="200" height="120" />
+                </td>
+                <td>
+                    <!-- Edit Button -->
+                    <a asp-action="Edit" asp-route-id="@item.VenueId">Edit</a> |
+                    <!-- Details Button -->
+                    <a asp-action="Details" asp-route-id="@item.VenueId">Details</a> |
+                    <!-- Delete Button -->
+                    <a asp-action="Delete" asp-route-id="@item.VenueId">Delete</a> 
+                   
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
